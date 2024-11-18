@@ -1,40 +1,92 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
-
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
 
-# vercel
-.vercel
+# Next.js build output
+.next/
+out/
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Next.js generated files
+*.next
+
+# Vercel deployments
+.vercel/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build and cache
+build/
+dist/
+.cache/
+.cache-loader/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.tmp
+*.temp
+*.orig
+*.bak
+
+# Debugging files
+*.pid
+*.pid.lock
+
+# Coverage directory used by testing tools
+coverage/
+
+# Node.js REPL history
+.node_repl_history
+
+# OSX system files
+.DS_Store
+
+# Thumbnails
+._*
+
+# IDE specific
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+*.sublime-project
+
+# NPM shrinkwrap
+npm-shrinkwrap.json
+
+# Yarn integrity file
+.yarn-integrity
+
+# Next.js TypeScript build files
+.next/**/*.tsbuildinfo
+
+# Local stack traces
+stacktracey.log
+
+# ESLint and Prettier
+.eslintcache
+.prettier-cache
+
+# Serverless deployments
+.serverless/
+
+# VS Code settings
+.vscode/
+
